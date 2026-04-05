@@ -20,8 +20,8 @@ app.config["JWT_SECRET_KEY"] = "srihari"
 jwt = JWTManager(app)
 
 
-READ_API_KEY = 'KEPLLQ6PUE23FB5F'
-CHANNEL_ID = '3239627'
+READ_API_KEY = ''
+CHANNEL_ID = ''
 model = joblib.load("model/weather_model.pkl")
 
 
